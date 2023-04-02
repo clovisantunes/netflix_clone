@@ -8,9 +8,22 @@
     overflow-x: scroll;
     padding: 20px;
 }
+
+.row_cards::-webkit-scrollbar {
+    display: none;
+    
+}
 .movie_card{
+    object-fit: contain;
     width: 100%;
-    max-height: 100px;
+    max-height: 20rem;
+    margin-bottom: 10px;
+    transition: transform 450ms;
+}
+.movie_card-large{
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
     margin-bottom: 10px;
     transition: transform 450ms;
 }
