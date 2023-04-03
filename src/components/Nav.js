@@ -12,7 +12,7 @@ function Nav () {
 
     return (
 
-        <div className={`nav_container ${show && "Nav_container_black"}`}>
+      <div className={`nav-container ${show && "Nav_container_black"}`} id="nav_container">
         <img className="Nav_logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="NetFlix">
             
         </img>

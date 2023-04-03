@@ -1,4 +1,4 @@
-.Nav_container{
+#nav_container {
     position: fixed;
     top:0;
     display: flex;
@@ -13,14 +13,19 @@
 .Nav_logo{
     position:fixed;
     left: 20px;
-    width: 80px;
+    padding: 0.5%;
+    width: 8%;
     object-fit: contain;
+    z-index: 1;
 }
 .Nav_avatar{
     position:fixed;
-    right: 20px;
-    width: 30px;
+    top: 2%;
+    right: 2%;
+    padding: 0.5%;
+    width: 3%;
     object-fit: contain;
+    z-index: 1;
 }
 
 .Nav_container_black{
