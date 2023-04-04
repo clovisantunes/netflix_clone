@@ -1,0 +1,69 @@
+.Login_background{
+    margin: 0;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    height: 100vh;
+}
+.Nav_logo{
+    padding: 2%;
+    top: 2%;
+    width: 15%;
+    background: none;
+}
+.Login_container_black{
+    margin-left: 35%;
+    margin-top: 5%;
+    background: black;
+    width: 30%;
+    height: 80vh;
+    opacity: 80%;
+    border-radius: 1vh;
+    border: solid 2px;
+    position: absolute;
+    
+}
+.Login_container{
+    margin-left: 35%;
+    margin-top: 5%;
+    background: none;
+    width: 30%;
+    height: 80vh;
+    border-radius: 1vh;
+    border: solid 2px;
+    position: absolute;
+}
+.Login_card{
+    top: 5vh;
+    opacity: 100%;
+    background: none;
+    position: absolute;
+    left: 5vh;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    font-size: 5vh;
+}
+#nome{
+    width: 85%;
+    height: 5vh;
+    background: #8c8c8c;;;
+    left: 2vh;
+    position: absolute;
+    top: 40%;
+    border-radius: 2vh;
+}
+.button_card{
+    position: absolute;
+    margin-top: 80%;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    background:red;
+    color: white;
+    font-size: 4vh;
+    border-radius: 2vh;
+
+}

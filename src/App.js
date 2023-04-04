@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Rotas from './components/Routes';
+import Rotas from './Routes';
 
 
 function App() {
   return (
     <div>
-      < Rotas />
+      <Rotas />
     </div>
   );
 }

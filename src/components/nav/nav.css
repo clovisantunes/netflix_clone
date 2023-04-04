@@ -1,0 +1,72 @@
+#nav_container {
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+}
+.Nav_logo{
+    position:fixed;
+    left: 20px;
+    padding: 0.5%;
+    width: 8%;
+    object-fit: contain;
+    z-index: 1;
+    
+}
+.Nav_avatar{
+    background-image: url('../img/images.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:fixed;
+    top: 2%;
+    right: 2%;
+    padding: 0.5%;
+    margin-top: 1%;
+    width: 3%;
+    height: 6%;
+    object-fit: contain;
+    z-index: 1;
+    border: none;
+    border-radius: 0.5vh;
+}
+
+.Nav_container_black{
+    background: #111;
+   
+}
+.NavMenu{
+    width: 10vh;
+    height: 20vh;
+    background: #111;
+    right: 7vh;
+    top: 2vh;
+    z-index: 1;
+    position: absolute;
+    border-radius: 2vh;
+    display: none;
+    padding: 2vh;
+}
+.close_card{
+    background-image: url('../img/images.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:fixed;
+    top: 2%;
+    right: 2%;
+    padding: 0.5%;
+    margin-top: 1%;
+    width: 3%;
+    height: 6%;
+    object-fit: contain;
+    z-index: 1;
+    border: none;
+    border-radius: 0.5vh;
+}
+

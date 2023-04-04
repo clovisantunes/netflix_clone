@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getMovies } from "../Tmdb";
+import { getMovies } from "../../Tmdb";
 import './Row.css';
 import ReactPlayer from "react-player";
 import movieTrailer from "movie-trailer";
