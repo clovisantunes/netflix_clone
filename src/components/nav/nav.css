@@ -42,8 +42,8 @@
    
 }
 .NavMenu{
-    width: 10vh;
-    height: 20vh;
+    width: 20vh;
+    height: 10vh;
     background: #111;
     right: 7vh;
     top: 2vh;
@@ -52,6 +52,7 @@
     border-radius: 2vh;
     display: none;
     padding: 2vh;
+    transition: oppacity 4s;
 }
 .close_card{
     background-image: url('../img/images.jpg');
@@ -68,5 +69,20 @@
     z-index: 1;
     border: none;
     border-radius: 0.5vh;
+}
+.user{
+    color: white;
+   margin-top: 5%;
+   position: absolute;
+}
+.exit_card{
+    background: rgb(236, 14, 14);
+    color: white;
+    margin-top: 38%;
+    width: 100%;
+    height: 30%;
+    border-radius: 0.5vh;
+    border: none;
+    font-size: 2.5vh;
 }
 

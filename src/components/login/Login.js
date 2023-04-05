@@ -8,12 +8,14 @@ const Login = () => {
 
   const onChangeHandler = (user) => {
     setUser(user.target.value);
-    window.localStorage.setItem(userName, setUser);
   };
+
+  
   const onClickChange = () => {
     window.localStorage.setItem(userName, setUser);
     console.log("Usuario: ", userName);
   };
+
 
   const Setlogo =
     "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg";
@@ -32,7 +34,7 @@ const Login = () => {
             placeholder="Digite seu nome de usuario"
             onChange={onChangeHandler}
           ></input>
-          <button className="button_card" onClick={() => Navigate("mini_netflix_v2/menu")}>
+          <button className="button_card" onClick={ Navigate("mini_netflix_v2/menu") || onClickChange}>
             Entrar
           </button>
         </div>
