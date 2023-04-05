@@ -34,7 +34,7 @@ const Login = () => {
             placeholder="Digite seu nome de usuario"
             onChange={onChangeHandler}
           ></input>
-          <button className="button_card" onClick={ Navigate("mini_netflix_v2/menu") || onClickChange}>
+          <button className="button_card" onClick= {Navigate("mini_netflix_v2/menu") || onClickChange}>
             Entrar
           </button>
         </div>

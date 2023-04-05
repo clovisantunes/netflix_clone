@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState} from "react";
+import { Navigate } from "react-router-dom";
 import "./nav.css";
 import "./HiddenNav";
 import Hide from "./HiddenNav";
@@ -30,7 +31,7 @@ function Nav() {
       <div className="NavMenu">
         <button className="close_card" onClick={Hide} />
         <h2 className="user" value={user}>{user}</h2>
-        <button className="exit_card">Sair</button>
+        <button className="exit_card" onClick={() =>Navigate("mini_netflix_v2")}>Sair</button>
       </div>
     </div>
   );

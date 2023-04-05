@@ -85,4 +85,7 @@
     border: none;
     font-size: 2.5vh;
 }
+.exit_card:focus{
+    background: black;
+}
 
